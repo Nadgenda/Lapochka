@@ -1,0 +1,17 @@
+﻿<Window x:Class="ObjectWpfApp1.Rieltor"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ObjectWpfApp1"
+        mc:Ignorable="d"
+        Title="Rieltor" Height="450" Width="800">
+    <Grid>
+        <DataGrid HorizontalAlignment="Left" Height="298" Margin="10,27,0,0" VerticalAlignment="Top" Width="772"/>
+        <Button Content="Добавить" HorizontalAlignment="Left" Height="51" Margin="10,358,0,0" VerticalAlignment="Top" Width="134"/>
+        <Button Content="Изменить" HorizontalAlignment="Left" Height="51" Margin="208,358,0,0" VerticalAlignment="Top" Width="134"/>
+        <Button Content="Удалить" HorizontalAlignment="Left" Height="51" Margin="433,358,0,0" VerticalAlignment="Top" Width="134"/>
+        <Button Content="Назад" HorizontalAlignment="Left" Height="51" Margin="648,358,0,0" VerticalAlignment="Top" Width="134"/>
+
+    </Grid>
+</Window>
